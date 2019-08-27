@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import classifyLayout from './components/class-node';
+import classifyLayout from './components/classify-node';
 import ClassifyData from './utils/classify-util';
 
 export default {
@@ -119,9 +119,9 @@ export default {
 </script>
 
 <style scoped="scoped" lang="scss">
-@import "./assets/css/reset.css";
-@import "./assets/base.scss";
-@import "./assets/css/table.css";
+@import "./styles/css/reset.css";
+@import "./styles/scss/base.scss";
+@import "./styles/css/table.css";
 .classification-layout{
     .line-arrow{
         height: 22px;
